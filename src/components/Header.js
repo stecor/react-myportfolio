@@ -37,7 +37,7 @@ class Header extends Component{
                 <div className="portrait"></div>
               </div>
               <ul className={(this.state.showMenu)? "menu-nav":"menu-nav show"}>
-                <li className={(this.state.showMenu)? "nav-item":"nav-item show"}>
+                <li className={(this.state.showMenu)? "nav-item current":"nav-item current show"}>
                   <Link to={process.env.PUBLIC_URL + "/"} className="nav-link" >Home</Link>
                 </li>
                 <li className={(this.state.showMenu)? "nav-item":"nav-item show"}>
@@ -47,7 +47,7 @@ class Header extends Component{
                   <Link to={process.env.PUBLIC_URL + "/Work"} className="nav-link" >My Work</Link>
                 </li>
                 <li className={(this.state.showMenu)? "nav-item":"nav-item show"}>
-                  <Link to={process.env.PUBLIC_URL + "/Contact"} className="nav-link" >How to Reach Me</Link>
+                  <Link to={process.env.PUBLIC_URL + "/Contact"} className="nav-link" >Reach Me</Link>
                 </li>
               </ul>
             </nav>
