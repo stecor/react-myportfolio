@@ -8,7 +8,7 @@ import Contact from './components/Contact';
 import {BrowserRouter , Route} from 'react-router-dom';
 
 
-ReactDOM.render(
+ReactDOM.render((
   <BrowserRouter>
     <div>
       <Route exact path={process.env.PUBLIC_URL + "/"} component={App}/>
@@ -16,4 +16,4 @@ ReactDOM.render(
       <Route  path={process.env.PUBLIC_URL + "/Work"} component={Work}/>
       <Route  path={process.env.PUBLIC_URL + "/Contact"} component={Contact}/>
     </div>
-  </BrowserRouter>, document.getElementById('root'));
+  </BrowserRouter>), document.getElementById('root'));
