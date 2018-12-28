@@ -15,6 +15,7 @@ $background-opacity:0.9;
       background-attachment: fixed;
       background-size: cover;
 
+
       &:after{
         content: '';
         position: absolute;
@@ -28,6 +29,9 @@ $background-opacity:0.9;
     }
   }
 }
+
+
+
 
 //Media Query Mixins
 @mixin mediaSm{
