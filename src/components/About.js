@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Header from './Header'
-import Portrait from '../images/portrait.jpg'
+import Header from './Header';
+import Portrait from '../images/portrait.jpg';
 
 
 class About extends Component {
